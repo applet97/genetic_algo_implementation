@@ -24,7 +24,6 @@ def get_max(generation_id):
 			ans = cur
 	return ans
 
-
 def converged(generation_id):
 	if len(population[generation_id]) <= MIN_POPULATION_SIZE: #if popilation size is extremely small, then it is converged
 		return True
